@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command UBILOC</Text>
+    <Description>Some description for UBILOC</Description>
+    <Assembly>UBILOC.dll</Assembly>
+    <FullClassName>UBILOC.Command</FullClassName>
+    <ClientId>c39882d2-7025-46aa-b473-fa7ca0d7add8</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application UBILOC</Name>
+    <Assembly>UBILOC.dll</Assembly>
+    <FullClassName>UBILOC.App</FullClassName>
+    <ClientId>4dfe320e-9c26-427e-9918-0cce7cd3212b</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
